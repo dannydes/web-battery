@@ -1,0 +1,102 @@
+@keyframes first_dot_red_change {
+	0% {
+		color: rgb(255, 0, 0);
+	}
+	
+	50% {
+		color: rgb(125, 0, 0);
+	}
+	
+	100% {
+		color: rgb(0, 0, 0);
+	}
+}
+
+@keyframes second_dot_red_change {
+	0% {
+		color: rgb(125, 0, 0);
+	}
+	
+	50% {
+		color: rgb(255, 0, 0);
+	}
+	
+	100% {
+		color: rgb(0, 0, 0);
+	}
+}
+
+@keyframes third_dot_red_change {
+	0% {
+		color: rgb(0, 0, 0);
+	}
+	
+	50% {
+		color: rgb(125, 0, 0);
+	}
+	
+	100% {
+		color: rgb(255, 0, 0);
+	}
+}
+
+@-webkit-keyframes first_dot_red_change {
+	0% {
+		color: rgb(255, 0, 0);
+	}
+	
+	50% {
+		color: rgb(125, 0, 0);
+	}
+	
+	100% {
+		color: rgb(0, 0, 0);
+	}
+}
+
+@-webkit-keyframes second_dot_red_change {
+	0% {
+		color: rgb(125, 0, 0);
+	}
+	
+	50% {
+		color: rgb(255, 0, 0);
+	}
+	
+	100% {
+		color: rgb(0, 0, 0);
+	}
+}
+
+@-webkit-keyframes third_dot_red_change {
+	0% {
+		color: rgb(0, 0, 0);
+	}
+	
+	50% {
+		color: rgb(125, 0, 0);
+	}
+	
+	100% {
+		color: rgb(255, 0, 0);
+	}
+}
+
+.progress_dots {
+	font-size: 30px;
+}
+
+.first_waiting_dot {
+	animation: first_dot_red_change 500ms infinite;
+	-webkit-animation: first_dot_red_change 500ms infinite;
+}
+
+.second_waiting_dot {
+	animation: second_dot_red_change 500ms infinite;
+	-webkit-animation: second_dot_red_change 500ms infinite;
+}
+
+.third_waiting_dot {
+	animation: third_dot_red_change 500ms infinite;
+	-webkit-animation: third_dot_red_change 500ms infinite;
+}

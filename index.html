@@ -3,11 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="base.css">
+		<link rel="stylesheet" href="progress-dots.css">
 		<title>Battery</title>
 	</head>
 	<body>
 		<div class="container">
-			<p id="charging" class="charging">charging ...</p>
+			<p id="charging" class="charging">charging 
+				<strong class="progress_dots">
+					<span class="first_waiting_dot">.</span>
+					<span class="second_waiting_dot">.</span>
+					<span class="third_waiting_dot">.</span>
+				</strong>
+			</p>
 			<p>
 				<span id="battery-level"></span>%
 			</p>
