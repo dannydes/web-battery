@@ -1,10 +1,13 @@
 (function (document, battery) {
-	
+
 	'use strict';
 
 	function showCharging() {
+		var charging = document.getElementById('charging');
 		if (battery.charging) {
-			document.getElementById('charging').classList.add('show');
+			charging.classList.add('show');
+		} else {
+			charging.classList.remove('show');
 		}
 	}
 
