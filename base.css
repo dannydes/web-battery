@@ -2,14 +2,21 @@
   display: none;
 }
 
+.container {
+  text-align: center;
+}
+
 .charging.show {
   display: block;
 }
 
 .battery-level-meter {
-  position: relative;
-  top: -10px;
-  left: 10px;
   height: 30px;
-  transform: rotate(-90deg);
+  transform: translateY(10px) rotate(-90deg);
+}
+
+.battery-level-text {
+  position: relative;
+  right: 4.25%;
+  color: rgb(255, 255, 255);
 }
