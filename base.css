@@ -1,0 +1,7 @@
+.charging {
+  display: none;
+}
+
+.charging.show {
+  display: block;
+}
