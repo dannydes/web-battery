@@ -13,6 +13,7 @@
 
 	function showBatteryLevel() {
 		document.getElementById('battery-level').textContent = battery.level * 100;
+		document.getElementById('battery-level-meter').value = battery.level;
 	}
 
 	showCharging();
