@@ -2,8 +2,11 @@
 
 	'use strict';
 
+	var charging = document.getElementById('charging'),
+		batteryLevel = document.getElementById('battery-level'),
+		batteryLevelMeter = document.getElementById('battery-level-meter');
+
 	function showCharging() {
-		var charging = document.getElementById('charging');
 		if (battery.charging) {
 			charging.classList.add('show');
 		} else {
@@ -12,8 +15,8 @@
 	}
 
 	function showBatteryLevel() {
-		document.getElementById('battery-level').textContent = battery.level * 100;
-		document.getElementById('battery-level-meter').value = battery.level;
+		batteryLevel.textContent = battery.level * 100;
+		batteryLevelMeter.value = battery.level;
 	}
 
 	showCharging();
