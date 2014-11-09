@@ -11,12 +11,15 @@
 }
 
 .battery-level-meter {
-  height: 30px;
+  display: block;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
   transform: translateY(10px) rotate(-90deg);
 }
 
 .battery-level-text {
   position: relative;
-  right: 4.25%;
+  bottom: 10px;
   color: rgb(255, 255, 255);
 }
